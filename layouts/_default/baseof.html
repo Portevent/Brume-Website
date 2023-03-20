@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body>
+
+<div id="side-content">
+  {{ partial "nav.html" }}
+  {{ partial "navlist" (dict "folder" "./content/doc") }}
+</div>
+<div id="main-content">
+  {{ block "footer" . }}
+  {{ end }}
+
+  {{ block "main" . }}
+  {{ end }}
+</div>
+
+</body>
+</html>

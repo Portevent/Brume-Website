@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<title>{{ .Page.Title }} a</title>
+{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
+{{ $style2 := resources.Get "sass/layout.scss" | resources.ToCSS | resources.Minify }}
+{{ $style3 := resources.Get "sass/colors.scss" | resources.ToCSS | resources.Minify }}
+{{ $style4 := resources.Get "sass/doc/layout.scss" | resources.ToCSS | resources.Minify }}
+{{ $style5 := resources.Get "sass/doc/colors.scss" | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style2.Permalink }}">
+<link rel="stylesheet" href="{{ $style3.Permalink }}">
+<link rel="stylesheet" href="{{ $style4.Permalink }}">
+<link rel="stylesheet" href="{{ $style5.Permalink }}">

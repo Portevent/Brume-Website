@@ -1,0 +1,18 @@
+<!-- Show folders -->
+{{ range $file := (readDir .folder) }}
+{{ if $file.IsDir }}
+{{ $path := print $.folder "/" $file.Name }}
+<details>
+    <summary>{{ $file.Name | title }}</summary>
+    <section class="tab">{{ partial "navlist" (dict "folder" $path) }}</section>
+</details>
+{{ end }}
+{{ end }}
+
+
+<!-- Show files -->
+{{ range $file := (readDir .folder) }}
+{{ if not $file.IsDir }}
+<a href="/">{{ $file.Name | title }}</a><br>
+{{ end }}
+{{ end }}

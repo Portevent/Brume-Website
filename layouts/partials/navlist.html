@@ -1,5 +1,6 @@
 <!-- Show folders -->
-{{ range $file := (readDir .folder) }}
+{{ $contentFolder := print "./content/doc" .folder }}
+{{ range $file := (readDir $contentFolder) }}
 {{ if $file.IsDir }}
 {{ $path := print $.folder "/" $file.Name }}
 <details>
@@ -11,9 +12,9 @@
 
 
 <!-- Show files -->
-{{ range $file := (readDir .folder) }}
+{{ range $file := (readDir $contentFolder) }}
 {{ if not $file.IsDir }}
-{{ $path := print $.folder "/" $file.Name }}
-<a href="/">{{ $file.Name | title }}</a><br>
+{{ $path := replace (print $.folder "/" $file.Name | lower) ".md" ""}}
+<a href="/Brume-Website/doc/{{$path}}">{{ $file.Name | title }}</a><br>
 {{ end }}
 {{ end }}

@@ -1,11 +1,21 @@
-{{ define "main" }}
-    <h1>Documentation</h1>
+<!doctype html>
+<html>
+<head>
+    {{ partial "head" . }}
+</head>
+
+<body>
+<div id="side-content">
+    {{ partial "nav.html" }}
+    {{ partial "navlist" (dict "folder" "") }}
+</div>
+<div id="main-content">
+    Brume list doc content :
     {{.Content}}
-    <ul>
-        {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{.Path}} - {{ .Title }}</a>
-        </li>
-        {{ end }}
-    </ul>
-{{ end }}
+
+    {{ block "footer" . }}
+    {{ end }}
+</div>
+
+</body>
+</html>

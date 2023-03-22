@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>{{ .Page.Title }} a</title>
+<title>{{ .Page.Title }}</title>
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
 {{ $style2 := resources.Get "sass/layout.scss" | resources.ToCSS | resources.Minify }}
 {{ $style3 := resources.Get "sass/colors.scss" | resources.ToCSS | resources.Minify }}

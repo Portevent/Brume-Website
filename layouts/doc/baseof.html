@@ -5,10 +5,12 @@
 </head>
 
 <body>
-
+<div id="side-content">
+  {{ partial "nav.html" }}
+  {{ partial "navlist" (dict "folder" "./content/doc") }}
+</div>
 <div id="main-content">
-  Brume main content :
-
+  Brume doc content :
   {{ block "main" . }}
   {{ end }}
 

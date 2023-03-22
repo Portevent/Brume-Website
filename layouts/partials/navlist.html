@@ -13,6 +13,7 @@
 <!-- Show files -->
 {{ range $file := (readDir .folder) }}
 {{ if not $file.IsDir }}
+{{ $path := print $.folder "/" $file.Name }}
 <a href="/">{{ $file.Name | title }}</a><br>
 {{ end }}
 {{ end }}

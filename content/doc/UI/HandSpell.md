@@ -14,10 +14,10 @@ Currently the cooldown system is based on local cooldown value saved within Hand
 # Summary :
 name|description
 ----|----
-[Setup]({{< ref "#setup\" >}}) | `Assign the Spell sprite to the button and set the cooldown to 0`
-[SelectSpell]({{< ref "#selectspell\" >}}) | `Select this HandSpell as the active HandSpell.\
+[Setup]({{< ref "#setup" >}}) | `Assign the Spell sprite to the button and set the cooldown to 0`
+[SelectSpell]({{< ref "#selectspell" >}}) | `Select this HandSpell as the active HandSpell.\
 This will notify the DeckManager`
-[ApplyCooldown]({{< ref "#applycooldown\" >}}) | `Apply the cooldown of the selected spell to the HandSpell`
+[ApplyCooldown]({{< ref "#applycooldown" >}}) | `Apply the cooldown of the selected spell to the HandSpell`
 
 ---
 ### Setup

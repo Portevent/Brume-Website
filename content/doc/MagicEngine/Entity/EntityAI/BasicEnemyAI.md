@@ -13,9 +13,9 @@ If it can't cast any spell on the player, it will move toward it
 # Summary :
 name|description
 ----|----
-[CastIntent]({{< ref "#castintent\" >}}) | `Cast the intended spell, and apply its cooldown in the grimoire`
-[DefaultBehavior]({{< ref "#defaultbehavior\" >}}) | `Default Behavior of the enemy if it can't cast a spell : moving toward Player`
-[FindIntent]({{< ref "#findintent\" >}}) | `Attempt to find an Intent\
+[CastIntent]({{< ref "#castintent" >}}) | `Cast the intended spell, and apply its cooldown in the grimoire`
+[DefaultBehavior]({{< ref "#defaultbehavior" >}}) | `Default Behavior of the enemy if it can't cast a spell : moving toward Player`
+[FindIntent]({{< ref "#findintent" >}}) | `Attempt to find an Intent\
 BasicEnemyAI just take the first valid spell in its grimoir and cast it on the player`
 
 ---

@@ -14,7 +14,7 @@ It is also where [Entity]({{< ref "Entity" >}}) are instancied.
 # Summary :
 name|description
 ----|----
-[Unregister]({{< ref "#unregister\" >}}) | `Remove an Entity from the game (remove it from EntityManager, delete its gameobject)`
+[Unregister]({{< ref "#unregister" >}}) | `Remove an Entity from the game (remove it from EntityManager, delete its gameobject)`
 
 ---
 ### Unregister

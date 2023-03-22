@@ -12,10 +12,10 @@ It is in charged of understand the user intents, cast spell or move when need
 # Summary :
 name|description
 ----|----
-[Setup]({{< ref "#setup\" >}}) | `Setup all spells in the grimoire inside handSpells.\
+[Setup]({{< ref "#setup" >}}) | `Setup all spells in the grimoire inside handSpells.\
 Setup the Onclick listener for click on tile`
-[ApplyCooldown]({{< ref "#applycooldown\" >}}) | `Apply the`
-[OnClick]({{< ref "#onclick\" >}}) | `Execute actions when a cell is clicked. It can be either casting a spell or moving toward`
+[ApplyCooldown]({{< ref "#applycooldown" >}}) | `Apply the`
+[OnClick]({{< ref "#onclick" >}}) | `Execute actions when a cell is clicked. It can be either casting a spell or moving toward`
 
 ---
 ### Setup

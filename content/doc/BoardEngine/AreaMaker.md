@@ -11,15 +11,15 @@ Convert Area to Coordinates[]
 # Summary :
 name|description
 ----|----
-[GetArea]({{< ref "#getarea\" >}}) | `Convert an Area to a list of valid Coordinate`
-[CoordinateInPattern]({{< ref "#coordinateinpattern\" >}}) | `Check if a coordinate meet the rules of the pattern`
-[IsCoordinateValid]({{< ref "#iscoordinatevalid\" >}}) | `Check if a coordinate meet the requirement of the pattern.\
+[GetArea]({{< ref "#getarea" >}}) | `Convert an Area to a list of valid Coordinate`
+[CoordinateInPattern]({{< ref "#coordinateinpattern" >}}) | `Check if a coordinate meet the rules of the pattern`
+[IsCoordinateValid]({{< ref "#iscoordinatevalid" >}}) | `Check if a coordinate meet the requirement of the pattern.\
 3 different check are valuated :\
 - Coordinates in pattern (e.g. the coordinate is on a diagonal or a line for a star pattern)\
 - Coordinates in minimal range (if the coordinates is beyond the minimal range)\
 - Coordinates in maximal range (if the coordinates doesn't not exceed the maximal range)`
-[CoordinateInMinimalRange]({{< ref "#coordinateinminimalrange\" >}}) | `Check if a coordinate is beyond the minimal range of the patten`
-[CoordinateInMaxRange]({{< ref "#coordinateinmaxrange\" >}}) | `Check if a coordinate is below the maximal range of the patten`
+[CoordinateInMinimalRange]({{< ref "#coordinateinminimalrange" >}}) | `Check if a coordinate is beyond the minimal range of the patten`
+[CoordinateInMaxRange]({{< ref "#coordinateinmaxrange" >}}) | `Check if a coordinate is below the maximal range of the patten`
 
 ---
 ### GetArea

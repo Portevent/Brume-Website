@@ -11,13 +11,13 @@ ManicManager is a class used for processing SpellEffect
 # Summary :
 name|description
 ----|----
-[Cast]({{< ref "#cast\" >}}) | `Cast a spell on a target`
-[CastEffect]({{< ref "#casteffect\" >}}) | `Execute a spellEffect`
-[ValidateEntity]({{< ref "#validateentity\" >}}) | `Check if a SpellEffect is valid on an entity and can be applied on it`
-[ValidatePlayerSpellConditions]({{< ref "#validateplayerspellconditions\" >}}) | `Check if a Spell can be casted by the player on a target (from player position)`
-[ValidateSpellRange]({{< ref "#validatespellrange\" >}}) | `Check if a caster can cast a spell from a point to a target (validate range Condition)`
-[ValidateSpellConditions]({{< ref "#validatespellconditions\" >}}) | `Check if a caster can cast a spell from a point to a target (validate all SpellCondition)`
-[ValidateCondition]({{< ref "#validatecondition\" >}}) | `Validate a single SpellCondition`
+[Cast]({{< ref "#cast" >}}) | `Cast a spell on a target`
+[CastEffect]({{< ref "#casteffect" >}}) | `Execute a spellEffect`
+[ValidateEntity]({{< ref "#validateentity" >}}) | `Check if a SpellEffect is valid on an entity and can be applied on it`
+[ValidatePlayerSpellConditions]({{< ref "#validateplayerspellconditions" >}}) | `Check if a Spell can be casted by the player on a target (from player position)`
+[ValidateSpellRange]({{< ref "#validatespellrange" >}}) | `Check if a caster can cast a spell from a point to a target (validate range Condition)`
+[ValidateSpellConditions]({{< ref "#validatespellconditions" >}}) | `Check if a caster can cast a spell from a point to a target (validate all SpellCondition)`
+[ValidateCondition]({{< ref "#validatecondition" >}}) | `Validate a single SpellCondition`
 
 ---
 ### Cast

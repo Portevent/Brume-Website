@@ -13,8 +13,8 @@ If an Entity is not Ready, the current animation will wait for it and thus delay
 # Summary :
 name|description
 ----|----
-[AddAnimation]({{< ref "#addanimation\" >}}) | `Queue a new animation`
-[ProcessQueue]({{< ref "#processqueue\" >}}) | `Process the next animation in the queue`
+[AddAnimation]({{< ref "#addanimation" >}}) | `Queue a new animation`
+[ProcessQueue]({{< ref "#processqueue" >}}) | `Process the next animation in the queue`
 
 ---
 ### AddAnimation

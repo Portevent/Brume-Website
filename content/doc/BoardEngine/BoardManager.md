@@ -12,7 +12,7 @@ Also communicate with [EntityManager]({{< ref "EntityManager" >}}) to determine 
 # Summary :
 name|description
 ----|----
-[CellFree]({{< ref "#cellfree\" >}}) | `Determinate if a cell is free (cell exist and no entity there)`
+[CellFree]({{< ref "#cellfree" >}}) | `Determinate if a cell is free (cell exist and no entity there)`
 
 ---
 ### CellFree

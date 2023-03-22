@@ -15,13 +15,13 @@ Everytime "ready" change, AnimationManager.ProcessQueue() is called to check the
 # Summary :
 name|description
 ----|----
-[ApplyMoveTo]({{< ref "#applymoveto\" >}}) | `Try to move toward MoveTo`
-[TpTo]({{< ref "#tpto\" >}}) | `Teleport to destination while playing the Tp Animation`
-[BlinkTo]({{< ref "#blinkto\" >}}) | `Teleport to destination without playing any animation`
-[Cast]({{< ref "#cast\" >}}) | `Call the Cast animation`
-[Hurt]({{< ref "#hurt\" >}}) | `Call the Hurt animation`
-[PrepareTp]({{< ref "#preparetp\" >}}) | `Call the PrepareTp animation`
-[AnimationEnd]({{< ref "#animationend\" >}}) | `Called by EntityAnimatorEvent when the animator want to notify its animation is ended`
+[ApplyMoveTo]({{< ref "#applymoveto" >}}) | `Try to move toward MoveTo`
+[TpTo]({{< ref "#tpto" >}}) | `Teleport to destination while playing the Tp Animation`
+[BlinkTo]({{< ref "#blinkto" >}}) | `Teleport to destination without playing any animation`
+[Cast]({{< ref "#cast" >}}) | `Call the Cast animation`
+[Hurt]({{< ref "#hurt" >}}) | `Call the Hurt animation`
+[PrepareTp]({{< ref "#preparetp" >}}) | `Call the PrepareTp animation`
+[AnimationEnd]({{< ref "#animationend" >}}) | `Called by EntityAnimatorEvent when the animator want to notify its animation is ended`
 
 ---
 ### ApplyMoveTo

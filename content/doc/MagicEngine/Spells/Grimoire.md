@@ -12,17 +12,17 @@ Grimoire hold a list of usable spell and their cooldown.
 # Summary :
 name|description
 ----|----
-[Awake]({{< ref "#awake\" >}}) | `Take a list of spells and create a Grimoire with theses spells in the same order (0 to n)`
-[AddSpell]({{< ref "#addspell\" >}}) | `Add a spell to a position`
-[RemoveSpell]({{< ref "#removespell\" >}}) | `Remove Spell from the Grimoire`
-[SetCooldown]({{< ref "#setcooldown\" >}}) | `Set the Cooldown of specified to value`
-[GetCooldown]({{< ref "#getcooldown\" >}}) | `Return the cooldown of a Spell`
-[GetCooldownEvent]({{< ref "#getcooldownevent\" >}}) | `Return the CooldownEvent of a spell`
-[ReduceAllCooldown]({{< ref "#reduceallcooldown\" >}}) | `Reduce all cooldown duration`
-[ApplyCooldown]({{< ref "#applycooldown\" >}}) | `Set a spell cooldown to its cooldown duration`
-[GetFirstValidSpell]({{< ref "#getfirstvalidspell\" >}}) | `Get the first spell that is not on cooldown`
-[GetFirstValidSpellOn]({{< ref "#getfirstvalidspellon\" >}}) | `Get the first spell that is not on cooldown and can be cast on target`
-[GetSpells]({{< ref "#getspells\" >}}) | `Return an Iterator of all spells`
+[Awake]({{< ref "#awake" >}}) | `Take a list of spells and create a Grimoire with theses spells in the same order (0 to n)`
+[AddSpell]({{< ref "#addspell" >}}) | `Add a spell to a position`
+[RemoveSpell]({{< ref "#removespell" >}}) | `Remove Spell from the Grimoire`
+[SetCooldown]({{< ref "#setcooldown" >}}) | `Set the Cooldown of specified to value`
+[GetCooldown]({{< ref "#getcooldown" >}}) | `Return the cooldown of a Spell`
+[GetCooldownEvent]({{< ref "#getcooldownevent" >}}) | `Return the CooldownEvent of a spell`
+[ReduceAllCooldown]({{< ref "#reduceallcooldown" >}}) | `Reduce all cooldown duration`
+[ApplyCooldown]({{< ref "#applycooldown" >}}) | `Set a spell cooldown to its cooldown duration`
+[GetFirstValidSpell]({{< ref "#getfirstvalidspell" >}}) | `Get the first spell that is not on cooldown`
+[GetFirstValidSpellOn]({{< ref "#getfirstvalidspellon" >}}) | `Get the first spell that is not on cooldown and can be cast on target`
+[GetSpells]({{< ref "#getspells" >}}) | `Return an Iterator of all spells`
 
 ---
 ### Awake

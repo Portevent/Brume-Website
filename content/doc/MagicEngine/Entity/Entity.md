@@ -22,9 +22,9 @@ A basic entity hold at least\
 # Summary :
 name|description
 ----|----
-[Die]({{< ref "#die\" >}}) | `Called when the Entity is killed.`
-[Vanish]({{< ref "#vanish\" >}}) | `Remove the gameobject associated to this entity`
-[DebuffAfflictions]({{< ref "#debuffafflictions\" >}}) | `Reduce the duration of all Afflictions`
+[Die]({{< ref "#die" >}}) | `Called when the Entity is killed.`
+[Vanish]({{< ref "#vanish" >}}) | `Remove the gameobject associated to this entity`
+[DebuffAfflictions]({{< ref "#debuffafflictions" >}}) | `Reduce the duration of all Afflictions`
 
 ---
 ### Die

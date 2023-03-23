@@ -4,7 +4,7 @@
 {{ if $file.IsDir }}
 {{ $path := print $.folder "/" $file.Name }}
 <details>
-    <summary>{{ $file.Name | title }}</summary>
+    <summary class="doc-entry">{{ $file.Name | title }}</summary>
     <section class="tab">{{ partial "navlist" (dict "folder" $path) }}</section>
 </details>
 {{ end }}
@@ -15,6 +15,8 @@
 {{ range $file := (readDir $contentFolder) }}
 {{ if not $file.IsDir }}
 {{ $path := replace (print $.folder "/" $file.Name | lower) ".md" ""}}
-<a href="/Brume-Website/doc/{{$path}}">{{ $file.Name | title }}</a><br>
+<section class="doc-entry">
+    <a href="/Brume-Website/doc/{{$path}}">{{ $file.Name | title }}</a><br>
+</section>
 {{ end }}
 {{ end }}

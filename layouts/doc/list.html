@@ -7,7 +7,9 @@
 <body>
 <div id="side-content">
     {{ partial "nav.html" }}
-    {{ partial "navlist" (dict "folder" "") }}
+    <div class="doc-nav">
+        {{ partial "navlist" (dict "folder" "") }}
+    </div>
 </div>
 <div id="main-content">
     Brume list doc content :

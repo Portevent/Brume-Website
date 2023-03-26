@@ -1,19 +1,31 @@
 ---
 title: BoardManager
-slug: BoardManager
+path: /BoardEngine
 alias: 
 - Board Manager
 tag: 
 - class
 ---
-Use the [WorldManager]({{< ref "WorldManager" >}}) to compute existing cell ([Coordinate]({{< ref "Coordinate" >}})) and free cell toward/away.\
+Use the [WorldManager]({{< ref "WorldManager" >}}) to compute existing cell ([Coordinate]({{< ref "Coordinate" >}})) and free cell toward/away.
 Also communicate with [EntityManager]({{< ref "EntityManager" >}}) to determine if a cell is free.
+```d2
+# Nodes :
+BoardEngine: {
+    Coordinate: Coordinate
+}
 
+# Links :
+BoardEngine.BoardManager -- BoardEngine.Coordinate: {style.stroke-dash: 3}
+
+```
 ---
 # Summary :
 name|description
 ----|----
 [CellFree]({{< ref "#cellfree" >}}) | `Determinate if a cell is free (cell exist and no entity there)`
+
+---
+# Functions :
 
 ---
 ### CellFree

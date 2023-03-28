@@ -1,3 +1,13 @@
+---
+title: State
+path: /MagicEngine/EntityEngine
+alias: 
+- State
+tag: 
+- class
+---
+A state correspond to a modification
+```d2
 # Nodes :
 MagicEngine: {
     EntityEngine: {
@@ -12,3 +22,5 @@ MagicEngine.EntityEngine.Entity -> MagicEngine.EntityEngine.State: Has {style.st
 source-arrowhead: {}
 target-arrowhead: {shape: arrow}
 }
+
+```

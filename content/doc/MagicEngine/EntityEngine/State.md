@@ -7,5 +7,6 @@ tag:
 - class
 ---
 A state correspond to a modification
-![State.svg]({{< ref "State.svg" >}})
+
+![State](State.svg "State")
 

@@ -10,7 +10,8 @@ Keep track of all [Entity]({{< ref "Entity" >}}), and register / unregister them
 Entity Manager also move [Entity]({{< ref "Entity" >}}) around using [BoardManager]({{< ref "BoardManager" >}}) to determine if a cell exist and can be used. The main task of Entity Manager is handling when two [Entity]({{< ref "Entity" >}}) need to switch places.
 Every displacement generate a [Movement]({{< ref "Movement" >}})
 It is also where [Entity]({{< ref "Entity" >}}) are instancied.
-![EntityManager.svg]({{< ref "EntityManager.svg" >}})
+
+![EntityManager](EntityManager.svg "EntityManager")
 
 ---
 # Summary :

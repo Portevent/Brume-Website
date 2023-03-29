@@ -7,5 +7,6 @@ tag:
 - class
 ---
 Centralized way to create Tilemap
-![TilemapManager.svg]({{< ref "TilemapManager.svg" >}})
+
+![TilemapManager](TilemapManager.svg "TilemapManager")
 

@@ -7,5 +7,6 @@ tag:
 - class
 ---
 Base Coordinate system used for the Board
-![Coordinate.svg]({{< ref "Coordinate.svg" >}})
+
+![Coordinate](Coordinate.svg "Coordinate")
 

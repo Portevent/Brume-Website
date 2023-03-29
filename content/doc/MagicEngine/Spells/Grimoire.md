@@ -8,7 +8,8 @@ tag:
 ---
 A grimoire represent the ability of entity to cast spell
 Grimoire hold a list of usable spell and their cooldown.
-![Grimoire.svg]({{< ref "Grimoire.svg" >}})
+
+![Grimoire](Grimoire.svg "Grimoire")
 
 ---
 # Summary :

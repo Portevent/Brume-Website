@@ -18,7 +18,8 @@ A basic entity hold at least
 
 - destination : coordinate where the entity is moving
 - afflictions : list of afflictions
-![Entity.svg]({{< ref "Entity.svg" >}})
+
+![Entity](Entity.svg "Entity")
 
 ---
 # Summary :

@@ -7,5 +7,6 @@ tag:
 - struct
 ---
 A Spell's effect
-![SpellEffect.svg]({{< ref "SpellEffect.svg" >}})
+
+![SpellEffect](SpellEffect.svg "SpellEffect")
 

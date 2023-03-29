@@ -7,7 +7,8 @@ tag:
 - class
 ---
 Keep track of the Player
-![GameManager.svg]({{< ref "GameManager.svg" >}})
+
+![GameManager](GameManager.svg "GameManager")
 
 ---
 # Summary :

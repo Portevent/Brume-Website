@@ -8,5 +8,6 @@ tag:
 ---
 Hold information about a Biome
 Use a [WorldGenerator]({{< ref "WorldGenerator" >}}) to feed it with tile
-![World.svg]({{< ref "World.svg" >}})
+
+![World](World.svg "World")
 

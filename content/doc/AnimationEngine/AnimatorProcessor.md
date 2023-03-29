@@ -7,7 +7,8 @@ tag:
 - class
 ---
 MonoBehaviour Object that calls [AnimationManager]({{< ref "AnimationManager" >}}).ProcessQueue() every tick
-![AnimatorProcessor.svg]({{< ref "AnimatorProcessor.svg" >}})
+
+![AnimatorProcessor](AnimatorProcessor.svg "AnimatorProcessor")
 
 ---
 # Summary :

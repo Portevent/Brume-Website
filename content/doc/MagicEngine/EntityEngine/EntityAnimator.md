@@ -11,7 +11,8 @@ The main parameter of an EntityAnimator is a boolean : ready
 This indicate to the AnimationManager whether this is Entity is idle and ready to make an animation, or busy doing
 one yet.
 Everytime "ready" change, AnimationManager.ProcessQueue() is called to check the next animation
-![EntityAnimator.svg]({{< ref "EntityAnimator.svg" >}})
+
+![EntityAnimator](EntityAnimator.svg "EntityAnimator")
 
 ---
 # Summary :

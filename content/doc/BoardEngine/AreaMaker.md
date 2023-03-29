@@ -7,7 +7,8 @@ tag:
 - class
 ---
 Convert Area to Coordinates[]
-![AreaMaker.svg]({{< ref "AreaMaker.svg" >}})
+
+![AreaMaker](AreaMaker.svg "AreaMaker")
 
 ---
 # Summary :

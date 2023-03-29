@@ -7,7 +7,8 @@ tag:
 - class
 ---
 Linked to a [World]({{< ref "World" >}}), generate and unload world part as the player moves around
-![ChunkManager.svg]({{< ref "ChunkManager.svg" >}})
+
+![ChunkManager](ChunkManager.svg "ChunkManager")
 
 ---
 # Summary :

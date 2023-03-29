@@ -8,7 +8,8 @@ tag:
 ---
 Use the [WorldManager]({{< ref "WorldManager" >}}) to compute existing cell ([Coordinate]({{< ref "Coordinate" >}})) and free cell toward/away.
 Also communicate with [EntityManager]({{< ref "EntityManager" >}}) to determine if a cell is free.
-![BoardManager.svg]({{< ref "BoardManager.svg" >}})
+
+![BoardManager](BoardManager.svg "BoardManager")
 
 ---
 # Summary :

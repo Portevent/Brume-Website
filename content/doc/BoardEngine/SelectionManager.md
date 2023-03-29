@@ -8,5 +8,6 @@ tag:
 ---
 Create and manage tilemaps for [Entity]({{< ref "Entity" >}}) (uses [TilemapManager]({{< ref "TilemapManager" >}}))
 Create Selection Zone and Focus Zone for entity in fight
-![SelectionManager.svg]({{< ref "SelectionManager.svg" >}})
+
+![SelectionManager](SelectionManager.svg "SelectionManager")
 

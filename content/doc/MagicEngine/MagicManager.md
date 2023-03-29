@@ -7,7 +7,8 @@ tag:
 - class
 ---
 ManicManager is a class used for processing SpellEffect
-![MagicManager.svg]({{< ref "MagicManager.svg" >}})
+
+![MagicManager](MagicManager.svg "MagicManager")
 
 ---
 # Summary :

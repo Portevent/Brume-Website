@@ -9,7 +9,8 @@ tag:
 Register all animations that must be play and process them
 Animations are queued as [AnimationData]({{< ref "AnimationData" >}}) object, and animation are played first in first out
 If an Entity is not Ready, the current animation will wait for it and thus delay all the other
-![AnimationManager.svg]({{< ref "AnimationManager.svg" >}})
+
+![AnimationManager](AnimationManager.svg "AnimationManager")
 
 ---
 # Summary :

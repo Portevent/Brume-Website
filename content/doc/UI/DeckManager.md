@@ -8,7 +8,8 @@ tag:
 ---
 A DeckManager link the player Grimoire to the UI and the GameController
 It is in charged of understand the user intents, cast spell or move when need
-![DeckManager.svg]({{< ref "DeckManager.svg" >}})
+
+![DeckManager](DeckManager.svg "DeckManager")
 
 ---
 # Summary :

@@ -11,15 +11,5 @@ A SpellCondition is a struct that summarize 4 information :
 - target : Where to apply the condition (on self, on target, or any entity)
 - data : For state / alignment / name check, hold the data to compare to
 - @operator : MustBe or MustNotBe
-```d2
-# Nodes :
-MagicEngine: {
-    MagicManager: Magic Manager {
-       link: MagicManager
-    }
-}
+![SpellCondition.svg]({{< ref "SpellCondition.svg" >}})
 
-# Links :
-MagicEngine.MagicManager -- MagicEngine.Spells.SpellCondition: {style.stroke-dash: 3}
-
-```

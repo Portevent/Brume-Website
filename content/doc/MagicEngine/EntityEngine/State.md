@@ -7,20 +7,5 @@ tag:
 - class
 ---
 A state correspond to a modification
-```d2
-# Nodes :
-MagicEngine: {
-    EntityEngine: {
-        Entity: Entity {
-           link: Entity
-        }
-    }
-}
+![State.svg]({{< ref "State.svg" >}})
 
-# Links :
-MagicEngine.EntityEngine.Entity -> MagicEngine.EntityEngine.State: Has {style.stroke-dash: 3
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-
-```

@@ -8,18 +8,8 @@ tag:
 ---
 A DeckManager link the player Grimoire to the UI and the GameController
 It is in charged of understand the user intents, cast spell or move when need
-```d2
-# Nodes :
-BoardEngine: {
-    Coordinate: Coordinate {
-       link: Coordinate
-    }
-}
+![DeckManager.svg]({{< ref "DeckManager.svg" >}})
 
-# Links :
-BoardEngine.Coordinate -- UI.DeckManager: {style.stroke-dash: 3}
-
-```
 ---
 # Summary :
 name|description

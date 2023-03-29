@@ -7,18 +7,5 @@ tag:
 - class
 ---
 Manage the Fog, updating the material to reflect the player position
-```d2
-# Nodes :
-BoardEngine: {
-    FogVision: Fog Vision {
-       link: FogVision
-    }
-}
+![FogManager.svg]({{< ref "FogManager.svg" >}})
 
-# Links :
-BoardEngine.FogVision -> BoardEngine.FogManager: Update the Fog Vision {
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-
-```

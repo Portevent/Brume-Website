@@ -8,29 +8,5 @@ tag:
 ---
 An EntityAI is an object computing what an entity will do on its turn, and how it behave
 A basic EntityAI has at least a Destination where it will move
-```d2
-# Nodes :
-MagicEngine: {
-    EntityEngine: {
-        AI: {
-            IntentAI: IntentAI {
-               link: IntentAI
-            }
-        }
-        Entity: Entity {
-           link: Entity
-        }
-    }
-}
+![EntityAI.svg]({{< ref "EntityAI.svg" >}})
 
-# Links :
-MagicEngine.EntityEngine.AI.EntityAI -> MagicEngine.EntityEngine.AI.IntentAI: Inherits {style.stroke-dash: 3
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-MagicEngine.EntityEngine.Entity <-> MagicEngine.EntityEngine.AI.EntityAI: Play turn {
-source-arrowhead: {shape: arrow}
-target-arrowhead: {shape: arrow}
-}
-
-```

@@ -8,31 +8,8 @@ tag:
 ---
 A grimoire represent the ability of entity to cast spell
 Grimoire hold a list of usable spell and their cooldown.
-```d2
-# Nodes :
-MagicEngine: {
-    EntityEngine: {
-        AI: {
-            BasicEnemyAI: Basic EnemyAI {
-               link: BasicEnemyAI
-            }
-        }
-    }
-    Spells: {
-        Spell: Spell {
-           link: Spell
-        }
-    }
-}
+![Grimoire.svg]({{< ref "Grimoire.svg" >}})
 
-# Links :
-MagicEngine.Spells.Grimoire -- MagicEngine.Spells.Spell: {style.stroke-dash: 3}
-MagicEngine.Spells.Grimoire -> MagicEngine.EntityEngine.AI.BasicEnemyAI: Has {style.stroke-dash: 3
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-
-```
 ---
 # Summary :
 name|description

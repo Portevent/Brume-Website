@@ -7,44 +7,8 @@ tag:
 - class
 ---
 Convert Area to Coordinates[]
-```d2
-# Nodes :
-BoardEngine: {
-    Area: Area {
-       link: Area
-    }
-    SelectionManager: Selection Manager {
-       link: SelectionManager
-    }
-    Coordinate: Coordinate {
-       link: Coordinate
-    }
-}
-MagicEngine: {
-    MagicManager: Magic Manager {
-       link: MagicManager
-    }
-}
+![AreaMaker.svg]({{< ref "AreaMaker.svg" >}})
 
-# Links :
-BoardEngine.AreaMaker -> BoardEngine.Coordinate: ...make a list of Coordinate {
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-BoardEngine.Area -> BoardEngine.AreaMaker: Convert an Area to... {
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-BoardEngine.AreaMaker -> MagicEngine.MagicManager: Get Spells' AoE {style.stroke-dash: 3
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-BoardEngine.AreaMaker -> BoardEngine.SelectionManager: Get Spells' range cast {style.stroke-dash: 3
-source-arrowhead: {}
-target-arrowhead: {shape: arrow}
-}
-
-```
 ---
 # Summary :
 name|description

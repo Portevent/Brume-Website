@@ -1,12 +1,19 @@
 <!-- Show folders -->
 {{ $contentFolder := print "./content/doc" .folder }}
 {{ range $file := (readDir $contentFolder) }}
-{{ if $file.IsDir }}
+{{ if $file.IsDir}}
+{{ if (not (eq $file.Name "graphs"))}}
 {{ $path := print $.folder "/" $file.Name }}
+
+{{ if (in $.opens ($file.Name | lower))}}
+<details open>
+{{ else }}
 <details>
-    <summary class="doc-entry">{{ $file.Name | title }}</summary>
-    <section class="tab">{{ partial "navlist" (dict "folder" $path) }}</section>
+{{ end }}
+    <summary class="doc-entry">{{ $file.Name }}</summary>
+    <section class="tab">{{ partial "navlist" (dict "folder" $path "opens" $.opens "focus" $.focus) }}</section>
 </details>
+{{ end }}
 {{ end }}
 {{ end }}
 
@@ -14,9 +21,15 @@
 <!-- Show files -->
 {{ range $file := (readDir $contentFolder) }}
 {{ if not $file.IsDir }}
-{{ $path := replace (print $.folder "/" $file.Name | lower) ".md" ""}}
+{{ $filename := replace ($file.Name ) ".md" ""}}
+{{ $path := print $.folder "/" $filename| lower}}
 <section class="doc-entry">
-    <a href="/Brume-Website/doc/{{$path}}">{{ $file.Name | title }}</a><br>
+
+    {{ if (eq $.focus $file.Name)}}
+    <a href="/Brume-Website/doc/{{$path}}" class="link-focus">{{ $filename }}</a><br>
+    {{ else }}
+    <a href="/Brume-Website/doc/{{$path}}">{{ $filename }}</a><br>
+    {{ end }}
 </section>
 {{ end }}
 {{ end }}

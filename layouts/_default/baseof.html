@@ -4,17 +4,16 @@
   {{ partial "head" . }}
 </head>
 
-<body>
-
-<div id="main-content">
-  Brume main content :
-
-  {{ block "main" . }}
-  {{ end }}
-
-  {{ block "footer" . }}
-  {{ end }}
+<body class="showcase-content">
+<div class="img-background-div">
+  <img class="img-background" src="{{ .Params.background}}"/>
 </div>
+
+{{ block "main" . }}
+{{ end }}
+
+{{ block "footer" . }}
+{{ end }}
 
 </body>
 </html>

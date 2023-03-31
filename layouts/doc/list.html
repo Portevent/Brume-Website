@@ -4,11 +4,11 @@
     {{ partial "head" . }}
 </head>
 
-<body>
+<body class="doc-content">
 <div id="side-content">
     {{ partial "nav.html" }}
     <div class="doc-nav">
-        {{ partial "navlist" (dict "folder" "") }}
+        {{ partial "navlist" (dict "folder" "" "opens" (slice) "focus" .File.LogicalName) }}
     </div>
 </div>
 <div id="main-content">

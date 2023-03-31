@@ -4,11 +4,12 @@
     {{ partial "head" . }}
 </head>
 
-<body>
+<body class="doc-content">
 <div id="side-content">
     {{ partial "nav.html" }}
     <div class="doc-nav">
-        {{ partial "navlist" (dict "folder" "") }}
+        {{ $subfolder := (split (index (split .Permalink "doc/") 1) "/")}}
+        {{ partial "navlist" (dict "folder" "" "opens" $subfolder "focus" .File.LogicalName) }}
     </div>
 </div>
 <div id="main-content">

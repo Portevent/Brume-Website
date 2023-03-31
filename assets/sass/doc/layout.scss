@@ -1,28 +1,30 @@
-.doc-nav{
+.doc-content{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+.doc-content .doc-nav{
   margin-right: 15px;
 }
 
-.doc-entry{
+.doc-content .doc-entry{
   width: 100%;
   padding: 2px;
 }
 
-table, th, td {
+.doc-content table, .doc-content th, .doc-content td {
   border: 1px solid;
   border-collapse: collapse;
   // text-align: center;
 }
 
-td{
+.doc-content td{
   padding: 4px;
 }
 
-hr{
+.doc-content hr{
   width: 80%;
-}
-
-p, ul{
-  margin: 2px;
 }
 
 h2, h3, h4, h5{

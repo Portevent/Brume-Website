@@ -5,8 +5,12 @@
 {{ $style3 := resources.Get "sass/colors.scss" | resources.ToCSS | resources.Minify }}
 {{ $style4 := resources.Get "sass/doc/layout.scss" | resources.ToCSS | resources.Minify }}
 {{ $style5 := resources.Get "sass/doc/colors.scss" | resources.ToCSS | resources.Minify }}
+{{ $style6 := resources.Get "sass/showcase/layout.scss" | resources.ToCSS | resources.Minify }}
+{{ $style7 := resources.Get "sass/showcase/colors.scss" | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <link rel="stylesheet" href="{{ $style2.Permalink }}">
 <link rel="stylesheet" href="{{ $style3.Permalink }}">
 <link rel="stylesheet" href="{{ $style4.Permalink }}">
 <link rel="stylesheet" href="{{ $style5.Permalink }}">
+<link rel="stylesheet" href="{{ $style6.Permalink }}">
+<link rel="stylesheet" href="{{ $style7.Permalink }}">

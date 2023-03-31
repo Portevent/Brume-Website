@@ -6,3 +6,7 @@ alias:
 tag: 
 - class
 ---
+PlayerAI is an IntentAI that listen to InputManager to setup Intent and actually play turn
+
+![PlayerAI](PlayerAI.svg "PlayerAI")
+

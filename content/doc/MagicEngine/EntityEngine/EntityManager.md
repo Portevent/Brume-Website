@@ -17,10 +17,21 @@ It is also where [Entity]({{< ref "Entity" >}}) are instancied.
 # Summary :
 name|description
 ----|----
+[RegisterEntity]({{< ref "#registerentity" >}}) | `Add a new entity to the board`
 [Unregister]({{< ref "#unregister" >}}) | `Remove an Entity from the game (remove it from EntityManager, delete its gameobject)`
 
 ---
 # Functions :
+
+---
+### RegisterEntity
+Add a new entity to the board
+
+#### Parameters
+name|type|description
+-----|-----|-----
+**entity**|[Entity]({{< ref "Entity" >}})|Entity to register
+**coordinates**|[Coordinate]({{< ref "Coordinate" >}})|Coordiantes
 
 ---
 ### Unregister

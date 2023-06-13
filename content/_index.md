@@ -72,4 +72,17 @@ gameplay and self-expression. Anyway, the project is back, greater than ever, I 
 
 # Road Map
 
-TODO
+## Presentation
+| Codebase | Gameplay | Visual | Narration | Projects |
+|---|---|---|---|---|
+|World Generator	| Basic world | Placeholders | | Road Map|
+| Fighting system | Fight mecanics | | | |
+|Questing system | | | |
+
+## Alpha - Gameplay
+| Codebase | Gameplay | Visual | Narration | Projects |
+|---|---|---|---|---|
+| | Fight UI | | | |
+| | Menu | | | |
+| | | | |
+

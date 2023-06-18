@@ -1,6 +1,6 @@
 ---
 title: WorldManager
-path: /BoardEngine
+path: /BoardEngine/WorldEngine
 alias: 
 - World Manager
 tag: 

@@ -6,7 +6,7 @@ alias:
 tag: 
 - struct
 ---
-A Spell's effect
+A Spell's effect  
 
 ![SpellEffect](SpellEffect.svg "SpellEffect")
 

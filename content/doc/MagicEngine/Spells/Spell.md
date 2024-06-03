@@ -21,7 +21,7 @@ The casting effect are applied according to a Pattern (cast)
 Each entity within that pattern undergo the effect
 The order of application is from closest to farthest (from target cell)
 ties break by orientation (polar coordinates centered at target)
-All effects are applied before changing target
+All effects are applied before changing target  
 
 ![Spell](Spell.svg "Spell")
 

@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-Tempo giver for the pass turn mechanic
+Tempo giver for the pass turn mechanic  
 
 ![PassTurnClock](PassTurnClock.svg "PassTurnClock")
 

@@ -17,7 +17,7 @@ A basic entity hold at least
 - summons : dictionnary, associating spell name with a list of Entity they summoned
 
 - destination : coordinate where the entity is moving
-- afflictions : list of afflictions
+- afflictions : list of afflictions  
 
 ![Entity](Entity.svg "Entity")
 

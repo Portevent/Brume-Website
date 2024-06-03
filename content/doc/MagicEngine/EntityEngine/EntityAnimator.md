@@ -9,8 +9,8 @@ tag:
 An EntityAnimator represent the state in which an Entity is for the animation
 The main parameter of an EntityAnimator is a boolean : ready
 This indicate to the AnimationManager whether this is Entity is idle and ready to make an animation, or busy doing
-one yet.
-Everytime "ready" change, AnimationManager.ProcessQueue() is called to check the next animation
+one yet.  
+Everytime "ready" change, AnimationManager.ProcessQueue() is called to check the next animation  
 
 ![EntityAnimator](EntityAnimator.svg "EntityAnimator")
 

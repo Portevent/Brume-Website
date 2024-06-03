@@ -6,4 +6,4 @@ alias:
 tag: 
 - struct
 ---
-Structure that hold all parameter needed by [WorldGenerator]({{< ref "WorldGenerator" >}})
+Structure that hold all parameter needed by [WorldGenerator]({{< ref "WorldGenerator" >}})  

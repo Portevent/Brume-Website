@@ -8,7 +8,7 @@ tag:
 ---
 BasicEnemyAI is a AI that will use a grimoir to cast spell on Player
 It will always try to take the first available spell in the grimoir, and intent to cast it on the player
-If it can't cast any spell on the player, it will move toward it
+If it can't cast any spell on the player, it will move toward it  
 
 ![BasicEnemyAI](BasicEnemyAI.svg "BasicEnemyAI")
 

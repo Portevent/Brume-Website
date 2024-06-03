@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-MonoBehaviour Object that calls [AnimationManager]({{< ref "AnimationManager" >}}).ProcessQueue() every tick
+MonoBehaviour Object that calls [AnimationManager]({{< ref "AnimationManager" >}}).ProcessQueue() every tick  
 
 ![AnimatorProcessor](AnimatorProcessor.svg "AnimatorProcessor")
 

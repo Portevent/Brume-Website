@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-Keep track of the Player
+Keep track of the Player  
 
 ![GameManager](GameManager.svg "GameManager")
 

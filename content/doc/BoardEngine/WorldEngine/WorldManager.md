@@ -8,7 +8,7 @@ tag:
 ---
 Create and manage [World]({{< ref "World" >}})
 Create any number of Tilemap needed, plus one for the Fog and assign it with the [FogManager]({{< ref "FogManager" >}})
-Make uses of [TilemapManager]({{< ref "TilemapManager" >}})
+Make uses of [TilemapManager]({{< ref "TilemapManager" >}})  
 
 ![WorldManager](WorldManager.svg "WorldManager")
 

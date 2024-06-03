@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-Linked to a [World]({{< ref "World" >}}), generate and unload world part as the player moves around
+Linked to a [World]({{< ref "World" >}}), generate and unload world part as the player moves around  
 
 ![ChunkManager](ChunkManager.svg "ChunkManager")
 

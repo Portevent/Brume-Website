@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-Centralized way to create Tilemap
+Centralized way to create Tilemap  
 
 ![TilemapManager](TilemapManager.svg "TilemapManager")
 

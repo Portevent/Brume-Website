@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-A state correspond to a modification
+A state correspond to a modification  
 
 ![State](State.svg "State")
 

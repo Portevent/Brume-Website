@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-PlayerAI is an IntentAI that listen to InputManager to setup Intent and actually play turn
+PlayerAI is an IntentAI that listen to InputManager to setup Intent and actually play turn  
 
 ![PlayerAI](PlayerAI.svg "PlayerAI")
 
@@ -15,6 +15,8 @@ PlayerAI is an IntentAI that listen to InputManager to setup Intent and actually
 name|description
 ----|----
 [CheckWorldInteraction]({{< ref "#checkworldinteraction" >}}) | `Called when Player move around. If in quest mode, will allow interaction with WorldInteractionAction`
+[PathFindTo]({{< ref "#pathfindto" >}}) | `PathFindToward a destination
+Called by DeckManager`
 
 ---
 # Functions :
@@ -27,3 +29,13 @@ Called when Player move around. If in quest mode, will allow interaction with Wo
 name|type|description
 -----|-----|-----
 **coordinate**|[Coordinate]({{< ref "Coordinate" >}})|Coordinates
+
+---
+### PathFindTo
+PathFindToward a destination
+Called by DeckManager
+
+#### Parameters
+name|type|description
+-----|-----|-----
+**coordinate**|[Coordinate]({{< ref "Coordinate" >}})|

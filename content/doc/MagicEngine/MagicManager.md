@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-ManicManager is a class used for processing SpellEffect
+ManicManager is a class used for processing SpellEffect  
 
 ![MagicManager](MagicManager.svg "MagicManager")
 

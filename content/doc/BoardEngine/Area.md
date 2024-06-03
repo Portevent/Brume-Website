@@ -6,7 +6,7 @@ alias:
 tag: 
 - class
 ---
-Blueprint of a selection of tile, contains a Pattern and a range
+Blueprint of a selection of tile, contains a Pattern and a range  
 
 ![Area](Area.svg "Area")
 

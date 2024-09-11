@@ -23,17 +23,12 @@ name|description
 [RegisterEntity]({{< ref "#registerentity" >}}) | `Add a new entity to the board`
 [CellFree]({{< ref "#cellfree" >}}) | `Check if a cell contains no entity`
 [CellOccupied]({{< ref "#celloccupied" >}}) | `Check if a cell contains an entity`
-[MoveEntity]({{< ref "#moveentity" >}}) | `Move an Entity toward a Cell. Will check if destination cell is free, and will return a failing Movement if not.
-Will also trigger animation move to`
-[MoveEntity]({{< ref "#moveentity" >}}) | `Move an Entity from a Cell toward another Cell. Will check if "from" cell is occupied,
-and if destination cell is free, and will return a failing Movement if not.
-Will also trigger animation move to`
-[TpEntity]({{< ref "#tpentity" >}}) | `Tp an Entity to a Cell.
-Will Trigger animation tp to, and also trigger a Telefrag if target cell is occupied.`
-[TpEntity]({{< ref "#tpentity" >}}) | `Tp an Entity from a Cell to another Cell.
-Will Trigger animation tp to, and also trigger a Telefrag if target cell is occupied.`
-[Kill]({{< ref "#kill" >}}) | `Kill an Entity`
+[MoveEntity]({{< ref "#moveentity" >}}) | `Move an Entity toward a Cell`
+[MoveEntity]({{< ref "#moveentity" >}}) | `Move an Entity from a Cell toward another Cell`
+[TpEntity]({{< ref "#tpentity" >}}) | `Tp an Entity to a Cell.`
+[TpEntity]({{< ref "#tpentity" >}}) | `Tp an Entity from a Cell to another Cell.`
 [Unregister]({{< ref "#unregister" >}}) | `Remove an Entity from the game (remove it from EntityManager, delete its gameobject)`
+[ClearCell]({{< ref "#clearcell" >}}) | `Clear a cell, removing Entity of it`
 [Summons]({{< ref "#summons" >}}) | `Create an Entity linked to a summoner's spell`
 [CreateEntity]({{< ref "#createentity" >}}) | `Create an Entity`
 [InstantiateGameObject]({{< ref "#instantiategameobject" >}}) | `Instantiate a Gameobject linked to an entityName`
@@ -101,8 +96,7 @@ name|type|description
 
 ---
 ### MoveEntity
-Move an Entity toward a Cell. Will check if destination cell is free, and will return a failing Movement if not.
-Will also trigger animation move to
+Move an Entity toward a Cell
 
 #### Parameters
 name|type|description
@@ -115,9 +109,7 @@ name|type|description
 
 ---
 ### MoveEntity
-Move an Entity from a Cell toward another Cell. Will check if "from" cell is occupied,
-and if destination cell is free, and will return a failing Movement if not.
-Will also trigger animation move to
+Move an Entity from a Cell toward another Cell
 
 #### Parameters
 name|type|description
@@ -132,7 +124,6 @@ NoEntity, NoDestination, Obstructed or Success
 ---
 ### TpEntity
 Tp an Entity to a Cell.
-Will Trigger animation tp to, and also trigger a Telefrag if target cell is occupied.
 
 #### Parameters
 name|type|description
@@ -147,7 +138,6 @@ NoDestination, Telefrag or Success
 ---
 ### TpEntity
 Tp an Entity from a Cell to another Cell.
-Will Trigger animation tp to, and also trigger a Telefrag if target cell is occupied.
 
 #### Parameters
 name|type|description
@@ -160,15 +150,6 @@ name|type|description
 NoDestination, Telefrag or Success
 
 ---
-### Kill
-Kill an Entity
-
-#### Parameters
-name|type|description
------|-----|-----
-**entity**|[Entity]({{< ref "Entity" >}})|Entity
-
----
 ### Unregister
 Remove an Entity from the game (remove it from EntityManager, delete its gameobject)
 
@@ -176,7 +157,11 @@ Remove an Entity from the game (remove it from EntityManager, delete its gameobj
 name|type|description
 -----|-----|-----
 **entity**|[Entity]({{< ref "Entity" >}})|Entity to unregister
-**checkSummoner**|`bool`|Set this to false to not check if the entity is summoned by another one. Will cause issue if properly set to false
+**checkSummoner**|`bool`|Set this to false to not check if the entity is summoned by another one. Will cause issue if incorrectly set to false
+
+---
+### ClearCell
+Clear a cell, removing Entity of it
 
 ---
 ### Summons

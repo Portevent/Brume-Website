@@ -61,7 +61,8 @@ name|type|description
 **area**|[Area]({{< ref "Area" >}})|The Area to compare to
 
 #### Return
-- `bool` : A boolean:
+- `bool` : 
+A boolean:
 True if the coordinate is contains within the pattern
 False otherwise
 

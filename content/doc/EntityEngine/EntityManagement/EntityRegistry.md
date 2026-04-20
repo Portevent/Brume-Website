@@ -45,7 +45,7 @@ Get Positional
 #### Parameters
 name|type|description
 -----|-----|-----
-**coordinates**|`DimensionCoordinate`|DimensionCoordinate
+**coordinates**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|DimensionCoordinate
 
 #### Return
 - [Entity]({{< ref "Entity" >}}) : Positional

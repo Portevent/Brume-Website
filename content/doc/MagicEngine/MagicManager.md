@@ -33,8 +33,8 @@ name|type|description
 -----|-----|-----
 **spell**|[Spell]({{< ref "Spell" >}})|Spell being casted
 **caster**|[Entity]({{< ref "Entity" >}})|Entity casting the spell
-**origin**|`DimensionCoordinate`|DimensionCoordinate from which the spell is cast
-**target**|`DimensionCoordinate`|DimensionCoordinate on which the spell is cast
+**origin**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|DimensionCoordinate from which the spell is cast
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|DimensionCoordinate on which the spell is cast
 
 ---
 ### CastEffect
@@ -46,8 +46,8 @@ name|type|description
 **spell**|[Spell]({{< ref "Spell" >}})|The spell from which the effect is from
 **caster**|[Entity]({{< ref "Entity" >}})|Entity casting the spell
 **effect**|[SpellEffect]({{< ref "SpellEffect" >}})|The effect being cast
-**origin**|`DimensionCoordinate`|DimensionCoordinate from which the spell is cast
-**target**|`DimensionCoordinate`|DimensionCoordinate on which the spell is cast
+**origin**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|DimensionCoordinate from which the spell is cast
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|DimensionCoordinate on which the spell is cast
 
 #### Exceptions
 - `ArgumentOutOfRangeException` : 
@@ -77,8 +77,8 @@ Check if a caster can cast a spell from a point to a target (validate range Cond
 name|type|description
 -----|-----|-----
 **spell**|[Spell]({{< ref "Spell" >}})|Spell intended
-**origin**|`DimensionCoordinate`|from which the spell is cast
-**target**|`DimensionCoordinate`|target where the spell is intended 
+**origin**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|from which the spell is cast
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|target where the spell is intended 
 
 #### Return
 - `bool` : boolean, true if the spell can be cast on that tile
@@ -92,8 +92,8 @@ name|type|description
 -----|-----|-----
 **spell**|[Spell]({{< ref "Spell" >}})|Spell intended
 **caster**|[Entity]({{< ref "Entity" >}})|Entity trying to cast the spell
-**origin**|`DimensionCoordinate`|from which the spell is cast
-**target**|`DimensionCoordinate`|target where the spell is intended 
+**origin**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|from which the spell is cast
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|target where the spell is intended 
 
 #### Return
 - `bool` : boolean, true if the spell can be cast on that tile
@@ -111,8 +111,8 @@ name|type|description
 **spell**|[Spell]({{< ref "Spell" >}})|Spell intended
 **condition**|[SpellCondition]({{< ref "SpellCondition" >}})|SpellCondition tested
 **caster**|[Entity]({{< ref "Entity" >}})|Entity trying to cast the spell
-**origin**|`DimensionCoordinate`|from which the spell is cast
-**target**|`DimensionCoordinate`|target where the spell is intended 
+**origin**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|from which the spell is cast
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|target where the spell is intended 
 
 #### Return
 - `bool` : boolean, true if the SpellCondition is validated

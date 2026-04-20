@@ -76,7 +76,7 @@ Get the first page that is not on cooldown and can be cast on cell
 name|type|description
 -----|-----|-----
 **caster**|`IEntity`|Caster
-**target**|`DimensionCoordinate`|Cell targeted
+**target**|[DimensionCoordinate]({{< ref "DimensionCoordinate" >}})|Cell targeted
 
 #### Return
 - [GrimoirePage]({{< ref "GrimoirePage" >}}) : Page, or null if all are on cooldown
